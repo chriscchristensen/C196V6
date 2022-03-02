@@ -65,14 +65,6 @@ public class MainActivity extends AppCompatActivity {
     /**
      * @param view
      */
-    public void showMentorAdd(View view) {
-        Intent intent = new Intent(this, MentorEditorActivity.class);
-        startActivity(intent);
-    }
-
-    /**
-     * @param view
-     */
     public void showTerms(View view) {
         Intent intent = new Intent(this, TermListActivity.class);
         startActivity(intent);
