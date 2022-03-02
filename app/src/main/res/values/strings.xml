@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">WGU</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="header_title_nav">Antonio Sierra</string>
+    <string name="header_subtitle_nav">Software Development - B.S.</string>
+    <string name="header_desc_nav">Navigation header</string>
+    <string name="settings_action">Settings</string>
+
+    <string name="terms_menu">Terms</string>
+    <string name="courses_menu">Courses</string>
+    <string name="assessments_menu">Assessments</string>
+    <string name="mentors_menu">Mentors</string>
+    <string name="tools_menu">Settings</string>
+
+    <string name="term_list_view">Terms Manager</string>
+    <string name="item_list_title">Terms</string>
+    <string name="item_detail_title">Detail Terms</string>
+    <string name="activity_term_editor_title">Editor Terms</string>
+
+    <string name="list_view_course">Courses Manager</string>
+    <string name="course_list_title">Courses</string>
+    <string name="course_detail_title">Detail Courses</string>
+    <string name="activity_course_editor_title">Editor Courses</string>
+
+    <string name="assessment_list_view">Assessment Manager</string>
+    <string name="assessment_list_title">Assessments</string>
+    <string name="assessment_detail_title">Detail Assessments</string>
+    <string name="activity_assessment_editor_title">Editor Assessments</string>
+
+    <string name="activity_mentor_editor_title">Editor Mentor</string>
+
+    <string name="note_detail_title">Detail Note</string>
+    <string name="activity_note_editor_title">Editor Note</string>
+
+    <string name="activity_settings_title">Settings</string>
+
+    <string name="activity_sharing_title">Note Share</string>
+    <string name="communicate_nav">Communicate</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="courses">Courses</string>
+    <string name="course_add">Course Add</string>
+    <string name="select_date">Select Date</string>
+    <string name="assessments_view">Assessment View</string>
+    <string name="courses_view">Course View</string>
+    <string name="terms_view">Term View</string>
+    <string name="mentor_name">Mentor Name</string>
+    <string name="mentor_email">Mentor Email</string>
+    <string name="mentor_phone">Mentor Phone</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+</resources>
