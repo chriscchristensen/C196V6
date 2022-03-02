@@ -29,6 +29,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class AssessmentDetailActivity extends AppCompatActivity {
+
     private Assessment selectedAssessment;
     public Database db;
 

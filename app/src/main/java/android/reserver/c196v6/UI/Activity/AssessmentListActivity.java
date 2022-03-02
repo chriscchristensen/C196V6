@@ -8,6 +8,7 @@ import android.reserver.c196v6.Models.Assessment;
 import android.reserver.c196v6.R;
 import android.reserver.c196v6.UI.Fragments.AssessmentDetailFragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -60,6 +61,16 @@ public class AssessmentListActivity extends AppCompatActivity {
         View recyclerView = findViewById(R.id.assessment_list);
         assert recyclerView != null;
         setupRecyclerView((RecyclerView) recyclerView);
+    }
+
+    /**
+     * @param menu
+     * @return
+     */
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_home, menu);
+        return true;
     }
 
     /**

@@ -6,6 +6,7 @@ import android.reserver.c196v6.Database.Database;
 import android.reserver.c196v6.Models.Term;
 import android.reserver.c196v6.R;
 import android.reserver.c196v6.UI.Fragments.TermDetailFragment;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -63,6 +64,16 @@ public class TermDetailActivity extends AppCompatActivity {
                     .add(R.id.term_detail_container, fragment)
                     .commit();
         }
+    }
+
+    /**
+     * @param menu
+     * @return
+     */
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_home, menu);
+        return true;
     }
 
     /**
