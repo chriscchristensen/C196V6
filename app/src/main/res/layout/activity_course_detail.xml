@@ -23,7 +23,7 @@
                 android:fitsSystemWindows="true"
                 app:contentScrim="?attr/colorPrimary"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed"
-                app:toolbarId="@+id/toolbar" />
+                app:toolbarId="@+id/toolbar" >
 
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/detail_toolbar"
@@ -31,6 +31,7 @@
                     android:layout_height="?attr/actionBarSize"
                     app:layout_collapseMode="pin"
                     app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
 
         </com.google.android.material.appbar.AppBarLayout>
 
