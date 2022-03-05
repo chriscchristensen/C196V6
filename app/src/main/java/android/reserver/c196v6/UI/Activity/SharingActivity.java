@@ -65,7 +65,7 @@ public class SharingActivity extends AppCompatActivity {
 
         if (shareFromSharedPref.equals("EMAIL")) {
             Intent emailIntent = new Intent(Intent.ACTION_SEND);
-            emailIntent.setType("text/html");
+            emailIntent.setType("text/plain");
             emailIntent.putExtra(Intent.EXTRA_EMAIL, shareTargetText);
             emailIntent.putExtra(Intent.EXTRA_SUBJECT, selectedNote.getTitle());
             emailIntent.putExtra(Intent.EXTRA_TEXT, selectedNote.getText());
