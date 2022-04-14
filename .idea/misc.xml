@@ -24,7 +24,7 @@
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/activity_term_detail.xml" value="0.1" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/activity_term_editor.xml" value="0.358695652173913" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/activity_term_list.xml" value="0.358695652173913" />
-        <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/app_bar_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/app_bar_main.xml" value="0.22" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/assessment_detail.xml" value="0.2" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/assessment_list.xml" value="0.358695652173913" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/assessment_list_content.xml" value="0.358695652173913" />
@@ -39,6 +39,7 @@
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/course_detail.xml" value="0.358695652173913" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/course_list.xml" value="0.358695652173913" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/course_list_content.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/course_rv_item.xml" value="0.3875" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/fragment_login.xml" value="0.3734375" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/nav_header_main.xml" value="0.2" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/layout/note_detail.xml" value="0.358695652173913" />
@@ -51,6 +52,7 @@
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/menu/menu_reminder.xml" value="0.3875" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/menu/menu_share.xml" value="0.3875" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/menu/options_menu.xml" value="0.3875" />
+        <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/menu/search_menu.xml" value="0.3875" />
         <entry key="..\:/Users/cchr117/AndroidStudioProjects/C196V6/app/src/main/res/menu/searchable.xml" value="0.3875" />
       </map>
     </option>
