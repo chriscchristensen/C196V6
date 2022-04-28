@@ -189,9 +189,8 @@ public class MainActivity extends AppCompatActivity {
             // if no item is added in filtered list we are
             // displaying a toast message as no data found.
             Toast.makeText(this, "No Data Found..", Toast.LENGTH_SHORT).show();
-        } else {
-            // at last we are passing that filtered
-            // list to our adapter class.
+        }
+        else {
             adapter.filterList(filteredlist);
         }
     }
@@ -202,14 +201,14 @@ public class MainActivity extends AppCompatActivity {
         courseModalArrayList = new ArrayList<>();
 
         // below line is to add data to our array list.
-        courseModalArrayList.add(new CourseModal("DSA", "DSA Self Paced Course"));
-        courseModalArrayList.add(new CourseModal("JAVA", "JAVA Self Paced Course"));
-        courseModalArrayList.add(new CourseModal("C++", "C++ Self Paced Course"));
-        courseModalArrayList.add(new CourseModal("Python", "Python Self Paced Course"));
-        courseModalArrayList.add(new CourseModal("Fork CPP", "Fork CPP Self Paced Course"));
+        courseModalArrayList.add(new CourseModal("C857", "Software Quality Assurance"));
+        courseModalArrayList.add(new CourseModal("C196", "Mobile Application Development"));
+        courseModalArrayList.add(new CourseModal("D191", "Advanced Data Management"));
+        courseModalArrayList.add(new CourseModal("C868", "Software Development Capstone"));
+        courseModalArrayList.add(new CourseModal("C856", "User Experience Design"));
 
         // initializing our adapter class.
-        adapter = new CourseAdapter(courseModalArrayList, MainActivity.this);
+        adapter = new CourseAdapter(new ArrayList<>(), MainActivity.this);
 
         // adding layout manager to our recycler view.
         LinearLayoutManager manager = new LinearLayoutManager(this);
